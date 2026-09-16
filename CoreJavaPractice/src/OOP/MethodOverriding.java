@@ -15,7 +15,9 @@ public class MethodOverriding extends Parent {
 
 	public static void main(String[] args) {
 		MethodOverriding m = new MethodOverriding();
+		Parent p = new Parent();
 		System.out.println(m.sum(10, 20));
+		System.out.println(p.sum(12, 10));
 
 	}
 }
