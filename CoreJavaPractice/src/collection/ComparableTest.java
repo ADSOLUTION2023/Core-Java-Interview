@@ -16,6 +16,7 @@ public class ComparableTest {
 		list.add(new ComparablePOJO(3, "e"));
 		list.add(new  ComparablePOJO(1, "d"));
 
+	 
 		Collections.sort(list);
 
 		Iterator it = list.iterator();
